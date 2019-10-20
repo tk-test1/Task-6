@@ -1,0 +1,332 @@
+*
+{
+    font-family: Verdana, Geneva, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    font-size: 1vw;
+}
+
+
+.bg-prim
+{
+background-color: #adc1d6;
+}
+
+.bg-sece
+{
+    background-color: #aaaaaa;
+}
+
+.bg-tert
+{
+    background-color: #9ba8b3;
+}
+
+.bg-quat
+{
+    background-color: #ffffff;
+}
+
+.disp-block
+{
+    display: block;
+}
+
+.text-bold
+{
+    font-weight: bold;
+}
+
+.text-ita
+{
+    font-style: italic;
+}
+
+.text-just
+{
+    text-align: justify;
+}
+
+.my-name
+{
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.h-s-1c
+ {
+     height: 6.5vw;
+ }
+
+.h-s-2c
+{
+    height: 13vw;
+}
+
+.mr-t-2p
+{
+    margin-top: 2%;
+}
+
+.mr-b-2p
+{
+    margin-bottom: 2%;
+}
+
+.mr-t-3
+{
+    margin-top: 3vw;
+}
+
+.p-b-5
+{
+    padding-bottom: 5vw;
+}
+
+
+.btn-flex-cnt
+{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.btn-flex-cnt__scl-btn
+{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 2.5vw 2.5vw 0 0  ;
+}
+
+.btn-flex-cnt__scl-btn--facebook
+{
+    background-color: #4668b3;
+}
+
+.btn-flex-cnt__scl-btn--facebook:hover
+{
+    background-color: #395491;
+}
+
+.btn-flex-cnt__scl-btn--twitter
+{
+    background-color: #3095d3;
+}
+
+.btn-flex-cnt__scl-btn--twitter:hover
+{
+    background-color: #2677a8;
+}
+
+.btn-flex-cnt__scl-btn--github
+{
+    background-color: #722d8b;
+}
+
+.btn-flex-cnt__scl-btn--github:hover
+{
+    background-color: #522064;
+}
+
+.btn-flex-cnt__scl-btn--email
+{
+    background-color: #ff7974;
+}
+
+.btn-flex-cnt__scl-btn--email:hover
+{
+    background-color: #aa514d;
+}
+
+.side-site
+{
+    text-align: center;
+}
+
+.brd
+{
+    margin: 0.5vw;
+    border: 0.1vw solid gray;
+    border-radius: 1vw;
+    padding: 0.5vw;
+}
+
+.brd-top
+{
+
+    border: 0.1vw solid gray;
+    border-radius: 1vw 1vw 0 0;
+    padding: 0.5vw;
+}
+
+.brd-bot
+{
+
+    border: 0.1vw solid gray;
+    border-radius: 0 0 1vw 1vw;
+    padding: 0.5vw;
+}
+
+.skill-bar
+{
+    margin-top: 0.5vw;
+    display: inline-block;
+    width: 5vw;
+    height: 0.5vw;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0.25vw;
+    z-index: 100;
+    float: right;
+}
+.one-five
+{
+    width: 4.8vw;
+    height: 0.35vw;
+    display: block;
+    background-color: #ffffff;
+    border-radius: 0.25vw;
+}
+
+.one-four
+{
+    width: 4vw;
+    height: 0.35vw;
+    display: block;
+    background-color: #ffffff;
+    border-radius: 0.25vw;
+}
+
+.one-three
+{
+    width: 3vw;
+    height: 0.35vw;
+    display: block;
+    background-color: #ffffff;
+    border-radius: 0.25vw;
+}
+
+.one-two
+{
+    width: 2vw;
+    height: 0.35vw;
+    display: block;
+    background-color: #ffffff;
+    border-radius: 0.25vw;
+}
+.one-one
+{
+    width: 1vw;
+    height: 0.35vw;
+    display: block;
+    background-color: #ffffff;
+    border-radius: 0.25vw;
+}
+
+
+.h1
+{
+    margin: 1vw 1vw 2vw 3vw;
+}
+
+.h3
+{
+    margin-top: 4vw;
+}
+
+.h4
+{
+    font-size: 1vw;
+}
+
+.jobs-list
+{
+}
+
+.job
+{
+    margin-left: 3vw;
+    margin-bottom: 2vw;
+}
+
+.job__name
+{
+    padding-right: 5vw;
+}
+.job__loc
+{
+    position: relative;
+    right: -3vw;
+}
+
+.job__disc
+{
+    position: relative;
+    bottom: -2vw;
+    left: -4vw;
+}
+
+.side-site-two
+{
+    position: relative;
+    left: 1vw;
+}
+
+.site-ph
+{
+    margin: 0 0 2vh 0;
+    padding: 0;
+    display: block;
+    width: 10vw;
+    height: 10vw;
+    background-color: white;
+
+}
+
+.site-ph-half
+{
+    padding-top: 10%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 10vw;
+    height: 5vw;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.site-ph-half:hover
+{
+    background-color: #9ba8b3;
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+
+}
+
+.main-photo
+{
+    position: relative;
+    top: 0;
+    left: -1.5vh;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 6.5vw;
+    border-color: #adc1d6;
+    border-style: solid;
+    border-width: 1vh;
+    opacity: 0.6;
+}
+
+.shd-lbr
+{
+    box-shadow: 2px 19px 23px -1px rgba(0,0,0,0.24);
+}
+
+.shd-b
+{
+    box-shadow: 1px 26px 54px -22px rgba(0,0,0,0.35);
+}
